@@ -4,5 +4,9 @@
     "invalidUsername":"adminnn",
     "invalidPassword":"admin1234",
     "spaceUsername":" Admin",
-    "uppercasePassword":"ADMIN123"
+    "uppercasePassword":"ADMIN123",
+    "existingEmployee": "Paul",
+    "nonExistingEmployee": "Unknown User",
+    "jobTitle": "QA Engineer",
+    "location": "HQ - CA, USA"
 }

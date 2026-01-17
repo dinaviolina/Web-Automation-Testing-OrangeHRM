@@ -1,5 +1,4 @@
-    class ForgotPasswordPage {
-
+class ForgotPasswordPage {
     selectors = {
         usernameInput: 'input[name="username"]',
         resetButton: 'button[type="submit"]',
