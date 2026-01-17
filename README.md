@@ -1,7 +1,7 @@
 # Web Automation Testing – OrangeHRM
 
 Final Project Bootcamp **SanberCode Batch 73**  
-Automation testing pada fitur **Login**, **Forgot Password**, dan **Dashboard** pada website **OrangeHRM** menggunakan **Cypress** dengan pendekatan **Page Object Model (POM)** dan **Intercept**.
+Automation testing for **Login**, **Forgot Password**, and **Dashboard** features on the **OrangeHRM** website using **Cypress** with **Page Object Model (POM)** and **Intercept** approach.
 
 Automation Testing for the OrangeHRM system using **Cypress**, **Page Object Model (POM)**, and **Intercept**.
 
@@ -17,19 +17,19 @@ Automation Testing for the OrangeHRM system using **Cypress**, **Page Object Mod
 ---
 
 ## Overview
-Project ini bertujuan untuk mengimplementasikan **automation testing end-to-end (E2E)** pada sistem OrangeHRM menggunakan Cypress.
+This project aims to implement **end-to-end (E2E) automation testing** on the OrangeHRM system using Cypress.
 
-Cypress dipilih karena:
-- Mudah digunakan dan cepat dipelajari
-- Memiliki dokumentasi yang lengkap
-- Mendukung real-time testing
-- Mendukung API testing menggunakan **Intercept**
+Cypress is chosen because it:
+- Is easy to use and quick to learn
+- Has comprehensive documentation
+- Supports real-time testing
+- Supports API testing using **Intercept**
 
-Pendekatan yang digunakan dalam project ini:
+Approaches used in this project:
 - **End-to-End Testing (E2E)**
-- **Fixtures** untuk data testing
-- **Page Object Model (POM)** untuk meningkatkan maintainability dan reusability kode
-- **Intercept** untuk memvalidasi request dan response API
+- **Fixtures** for test data
+- **Page Object Model (POM)** to improve code maintainability and reusability
+- **Intercept** to validate API requests and responses
 
 ---
 
@@ -38,7 +38,7 @@ Pendekatan yang digunakan dalam project ini:
 - **JavaScript**
 - **Node.js**
 - **Page Object Model (POM)**
-- **Intercept API**
+- **API Intercept**
 - **OrangeHRM Demo Website**
 
 ---
@@ -54,21 +54,21 @@ Pendekatan yang digunakan dalam project ini:
 6. Login with empty username *(Negative)*  
 7. Login with empty password *(Negative)*  
 8. Login with empty username and password *(Negative)*  
-9. Login successfully then logout  
+9. Login successfully and then logout  
 10. Login with invalid username (case-sensitive) *(Negative)*  
 
 ---
 
 ### 2. Forgot Password Testing
 1. Navigation and form validation  
-2. Reset password using valid username  
-3. Reset password using invalid username *(Negative)*  
+2. Reset password using a valid username  
+3. Reset password using an invalid username *(Negative)*  
 4. Reset password using special characters *(Negative)*  
 5. Click **Cancel** button  
 6. Refresh forgot password page  
 7. Submit empty username *(Required validation)*  
 8. Reset password using numeric username *(Negative)*  
-9. Reset password using username with space *(Negative)*  
+9. Reset password using username with spaces *(Negative)*  
 10. Navigate back after forgot password page  
 
 ---
@@ -95,18 +95,11 @@ WEB-AUTOMATION-TESTING-ORANGEHRM
 │   ├── e2e/
 │   │   ├── 01_login.cy.js
 │   │   ├── 02_forgot_password.cy.js
-│   │   └── 03_directorydashboard.cy.js
+│   │   ├── 03_dashboard.cy.js
+│   │   └── 04_dashboard-directory.cy.js
 │   ├── fixtures/
 │   │   └── testData.json
-│   ├── support/
-│   │   └── pageObjects/
-│   │       ├── DashboardPage.js
-│   │       ├── ForgotPasswordPage.js
-│   │       └── LoginPage.js
-├── cypress.config.js
-├── package.json
-├── package-lock.json
-└── README.md
+│   ├
 ```
 ## Test Execution
 
