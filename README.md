@@ -20,6 +20,25 @@ Automation Testing for OrangeHRM System using Cypress with Page Object Model (PO
 ### 3. Dashboard Testing
 
 ## Project Structure
+WEB-AUTOMATION-TESTING-ORANGEHRM
+├── cypress/
+|   |── e2e/
+│       └── 01_login.cy.js
+│       └── 02_forgot_password.cy.js
+│       └── 03_directorydashboard.cy.js
+|   ├── fixtures/
+│   └── testData.json
+|   ├── support/
+│       └── pageObjects/
+│           └── DashboardPage.js
+│           └── forgotPasswordPage.js
+│           └── loginPage.js
+|   ├── node_modules
+├── cypress.config.js
+├── package-lock.json
+├── package.json
+README.md
+
 
 ## Test Case Automation Test
 ### Login Page
